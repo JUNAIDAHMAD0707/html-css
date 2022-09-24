@@ -1,0 +1,52 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.face{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.title{
+    flex: 1;
+    margin-left: 15px;
+}
+.name{
+    color: grey;
+}
+.specialization{
+    color: coral;
+}
+.lname{
+    color: coral;
+}
+.line{
+    border: 1px solid coral;
+}
+.firstrow{
+    width: 200px;
+    display: block;
+}
+.firstrowcss{
+    font-size: 20PX;
+    color: coral;
+}
+.marg{
+    margin-top: 25px;
+}
+.jobheading{
+    font-size: 20px;
+}
+.jobduration{
+    font-weight: 100;
+    line-height: 20px;
+}
+.jobdescription{
+    line-height: 20px;
+}
